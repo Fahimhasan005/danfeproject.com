@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+/*CSS Document*/
+
+ *{
+   font-family: 'Lato','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','sans-serif' 'sans-serif';
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   text-transform: capitalize;
+} 
+
+
+main {
+    background-color: #fafafa;
+    padding-bottom: 60px;
+    color: #303030;
+}
+
+.privacypolicy_container  {
+    text-align: left;
+    margin: 0px 20px;
+    font-size: 1.4rem;
+}
+
+.privacypolicy_container ul {
+    background-color: none;
+    padding: 14px;
+    margin-top: 10px;
+
+}
+.privacypolicy_container li{
+    list-style: none;
+     text-indent:-1rem;
+    padding-left: 1rem;
+ }
+ .privacypolicy_container li::before {
+     content:  ".";
+ }
+
+ .privacypolicy_container p {
+     font-size: 1.3rem;
+ }
+
+.privacypolicy_container h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h3  {
+    margin-top:50px ;
+    margin-bottom: 10px;
+}
